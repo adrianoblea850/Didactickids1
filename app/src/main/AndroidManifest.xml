@@ -12,6 +12,10 @@
         android:theme="@style/Theme.Didactickids"
         tools:targetApi="31">
         <activity
+            android:name=".Menu"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

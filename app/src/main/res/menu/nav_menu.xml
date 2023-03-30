@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn= "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id=""
+            android:icon="@drawable/nav_home"
+            android:title="Inicio"/>
+        <item
+            android:id=""
+            android:icon="@drawable/nav_iniciarsesion"
+            android:title="Iniciar sesion"/>
+        <item
+            android:id=""
+            android:icon="@drawable/nav_crearperfil"
+            android:title="Crear cuenta"/>
+        <item
+            android:id=""
+            android:icon="@drawable/nav_lecciones"
+            android:title="Lecciones"/>
+        <item
+            android:id=""
+            android:icon="@drawable/nav_nivel"
+            android:title="Nivel"/>
+        <item
+            android:id=""
+            android:icon="@drawable/nav_datosnino"
+            android:title="Datos del niño/a"/>
+        <item
+            android:id=""
+            android:icon="@drawable/nav_leccion"
+            android:title="Leccion"/>
+        <item
+            android:id=""
+            android:icon="@drawable/nav_actividad"
+            android:title="Actividad"/>
+        <item
+            android:id=""
+            android:icon="@drawable/nav_nosotros"
+            android:title="Nosotros"/>
+        <item
+            android:id=""
+            android:icon="@drawable/nav_perfil"
+            android:title="Perfil"/>
+        <item
+            android:id=""
+            android:icon="@drawable/nav_ajustes"
+            android:title="Ajustes"/>
+        <item
+            android:id=""
+            android:icon="@drawable/nav_ayuda"
+            android:title="Ayuda"/>
+    </menu>

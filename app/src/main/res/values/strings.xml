@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Didactickids</string>
+    <string name="open_nav">Open Navegacion</string>
+    <string name="close_nav">Close Navegation</string>
 </resources>
