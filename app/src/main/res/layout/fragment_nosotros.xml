@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FragmentNosotros">
 
     <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="350dp"
+        android:layout_height="282dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/img_7" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/textView4"
+        android:layout_width="259dp"
+        android:layout_height="281dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Didactic kids es un equipo  nuestra misión es  proporcionar a los niños una experiencia educativa interactiva, divertida y efectiva en matemáticas,
+para ayudarles a desarrollar su comprensión de las matemáticas y a mejorar sus habilidades en la materia. Nos esforzamos por crear una plataforma que sea accesible, intuitiva y que inspire a los niños a explorar el mundo de las matemáticas de una manera  única y atractiva"
+        android:textAlignment="center"
+
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="281dp"
+        android:layout_height="137dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/img_8" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="229dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="420dp"
+        android:text=" Informacion de contacto
+Didactic_kids@gmail.com
+numero:1234567890
+Guanajuato,Abasolo,centro,C.P:36970
+
+"
+        android:textAlignment="center"
+
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
 
 </FrameLayout>
