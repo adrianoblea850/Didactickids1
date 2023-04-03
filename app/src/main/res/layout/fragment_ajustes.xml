@@ -14,6 +14,8 @@
         android:background="@drawable/circle"
         android:scaleType="fitCenter"
         android:src="@drawable/img_5"
+        android:id="@+id/profile"
+
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
 
     <ImageButton
@@ -24,6 +26,7 @@
         android:background="@drawable/translucid"
         android:scaleType="fitCenter"
         android:src="@drawable/img_10"
+        android:id="@+id/usersettings"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
     <ImageButton
         android:layout_width="329dp"
@@ -33,6 +36,7 @@
         android:background="@drawable/translucid"
         android:scaleType="fitCenter"
         android:src="@drawable/img_11"
+        android:id="@+id/lessonsettings"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
     <ImageButton
         android:layout_width="329dp"
@@ -42,6 +46,7 @@
         android:background="@drawable/translucid"
         android:scaleType="fitCenter"
         android:src="@drawable/img_12"
+        android:id="@+id/help"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
 
     <ImageButton
@@ -52,6 +57,7 @@
         android:background="@drawable/translucid"
         android:scaleType="fitCenter"
         android:src="@drawable/img_13"
+        android:id="@+id/logout"
         tools:ignore="SpeakableTextPresentCheck">
     </ImageButton>
 
