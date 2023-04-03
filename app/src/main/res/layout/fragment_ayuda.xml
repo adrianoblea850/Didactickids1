@@ -6,9 +6,68 @@
     tools:context=".FragmentAyuda">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/circle"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_5"
+        tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+    <ImageButton
+        android:layout_width="329dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/translucid"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_10"
+        tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+    <ImageButton
+        android:layout_width="329dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/translucid"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_11"
+        tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+    <ImageButton
+        android:layout_width="329dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/translucid"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_14"
+        tools:ignore="SpeakableTextPresentCheck"></ImageButton>
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_width="240dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="145dp"
+        android:textAlignment="center"
+
+        android:text="Servicio de ayuda"></TextView>
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="235dp"
+        android:textAlignment="center"
+
+        android:text="Reportar problema"></TextView>
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="325dp"
+        android:textAlignment="center"
+
+        android:text="Seguridad"></TextView>
+
 
 </FrameLayout>
