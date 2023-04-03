@@ -13,6 +13,7 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/circle"
         android:scaleType="fitCenter"
+        android:id="@+id/profile"
         android:src="@drawable/img_5"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
 
@@ -24,6 +25,7 @@
         android:background="@drawable/translucid"
         android:scaleType="fitCenter"
         android:src="@drawable/img_10"
+        android:id="@+id/servicehelp"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
     <ImageButton
         android:layout_width="329dp"
@@ -32,6 +34,7 @@
         android:layout_marginTop="200dp"
         android:background="@drawable/translucid"
         android:scaleType="fitCenter"
+        android:id="@+id/report"
         android:src="@drawable/img_11"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
     <ImageButton
@@ -41,6 +44,7 @@
         android:layout_marginTop="290dp"
         android:background="@drawable/translucid"
         android:scaleType="fitCenter"
+        android:id="@+id/us"
         android:src="@drawable/img_14"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
 

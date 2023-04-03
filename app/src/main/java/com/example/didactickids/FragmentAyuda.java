@@ -1,12 +1,16 @@
 package com.example.didactickids;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -58,7 +62,26 @@ public class FragmentAyuda extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_ayuda, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_ayuda, container, false);
+        ImageButton imgPerfil = rootView.findViewById(R.id.profile);
+        ImageButton servicioayuda = rootView.findViewById(R.id.servicehelp);
+        ImageButton reportarpro = rootView.findViewById(R.id.report);
+        ImageButton nosotros = rootView.findViewById(R.id.us);
+
+        nosotros.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.fragment_container, new FragmentNosotros());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+            }
+        });
+
+
+        return rootView;
     }
+
+
 }
