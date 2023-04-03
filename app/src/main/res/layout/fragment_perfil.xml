@@ -12,6 +12,7 @@
         android:background="@drawable/circle"
         android:layout_marginTop="15dp"
         android:layout_marginStart="5dp"
+        android:id="@+id/profile"
         android:scaleType="fitCenter"
         android:src="@drawable/img_5"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
@@ -32,7 +33,7 @@
         android:layout_marginStart="335dp"
         android:layout_marginTop="19dp"
         android:background="@drawable/translucid"
-
+        android:id="@+id/dots"
         android:scaleType="fitCenter"
         android:src="@drawable/img_4"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
@@ -67,6 +68,7 @@ pronto estara preparado para el siguente nivel"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="520dp"
         android:background="@drawable/translucid"
+        android:id="@+id/lecciones"
         android:scaleType="fitCenter"
         android:src="@drawable/img_9"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
