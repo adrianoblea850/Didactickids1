@@ -23,6 +23,7 @@
         android:layout_marginTop="19dp"
         android:layout_marginEnd="72dp"
         android:text="Name"
+        android:background="@drawable/border"
         android:layout_marginStart="70dp" />
 
     <ImageButton
@@ -57,6 +58,26 @@
         android:layout_marginTop="386dp"
         android:text="Nivel: intermedio Wow!! los conocimientos de tu hijo son arriba del 75%,
 pronto estara preparado para el siguente nivel"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <ImageButton
+        android:layout_width="273dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/translucid"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_9"
+        tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="540dp"
+        android:text="Lecciones"
+        android:textAlignment="center"
         android:textSize="15dp"
         tools:ignore="TextSizeCheck"></TextView>
 
