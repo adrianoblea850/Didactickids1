@@ -19,7 +19,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="411dp"
-        android:layout_height="51dp"
+        android:layout_height="60dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="100dp"
         android:background="@drawable/border"
@@ -40,6 +40,32 @@
             android:layout_width="358dp"
             android:layout_height="match_parent"
             android:text="Name"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/border"
+
+        >
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="355dp"
+            android:background="@drawable/translucid"
+            android:scaleType="fitCenter"
+            android:src="@drawable/edit"
+            tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="358dp"
+            android:layout_height="match_parent"
+            android:text="Edit pasword "
             android:textSize="15dp"
             tools:ignore="TextSizeCheck" />
     </androidx.cardview.widget.CardView>
