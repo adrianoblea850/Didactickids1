@@ -65,8 +65,8 @@ public class FragmentAyuda extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_ayuda, container, false);
         ImageButton imgPerfil = rootView.findViewById(R.id.profile);
         ImageButton servicioayuda = rootView.findViewById(R.id.servicehelp);
-        ImageButton reportarpro = rootView.findViewById(R.id.report);
         ImageButton nosotros = rootView.findViewById(R.id.us);
+
 
         nosotros.setOnClickListener(new View.OnClickListener() {
             @Override

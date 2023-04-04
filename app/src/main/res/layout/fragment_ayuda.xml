@@ -34,19 +34,10 @@
         android:layout_marginTop="200dp"
         android:background="@drawable/translucid"
         android:scaleType="fitCenter"
-        android:id="@+id/report"
-        android:src="@drawable/img_11"
-        tools:ignore="SpeakableTextPresentCheck"></ImageButton>
-    <ImageButton
-        android:layout_width="329dp"
-        android:layout_height="89dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="290dp"
-        android:background="@drawable/translucid"
-        android:scaleType="fitCenter"
         android:id="@+id/us"
         android:src="@drawable/img_14"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
 
     <TextView
         android:layout_width="240dp"
@@ -65,16 +56,9 @@
         android:layout_marginTop="235dp"
         android:textAlignment="center"
         android:textSize="15dp"
-        android:text="Reportar problema"></TextView>
-
-    <TextView
-        android:layout_width="240dp"
-        android:layout_height="52dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="325dp"
-        android:textAlignment="center"
-        android:textSize="15dp"
         android:text="Nosotros"></TextView>
+
+
 
 
 </FrameLayout>

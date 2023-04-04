@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -62,9 +63,19 @@ public class FragmentServicioAyuda extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_servicio_ayuda, container, false);
         Button btn = rootView.findViewById(R.id.btnayuda);
 
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mostrarToast();
+            }
+        });
         return rootView;
 
 
 
+
+    }
+    public void mostrarToast() {
+        Toast.makeText(getActivity(), "Se ha enviado correctamente el reporte", Toast.LENGTH_SHORT).show();
     }
 }
