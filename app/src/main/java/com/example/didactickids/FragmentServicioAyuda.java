@@ -59,10 +59,11 @@ public class FragmentServicioAyuda extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_ayuda, container, false);
-        Button button = rootView.findViewById(R.id.btnayuda);
+        View rootView = inflater.inflate(R.layout.fragment_servicio_ayuda, container, false);
+        Button btn = rootView.findViewById(R.id.btnayuda);
 
         return rootView;
+
 
 
     }
