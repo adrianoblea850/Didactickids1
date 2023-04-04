@@ -37,7 +37,4 @@
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/nav_menu"
         app:itemIconTint="@color/material_dynamic_primary30"/>
-
-
-
 </androidx.drawerlayout.widget.DrawerLayout>
