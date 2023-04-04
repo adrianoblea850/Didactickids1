@@ -22,7 +22,7 @@
     <EditText
         android:id="@+id/editTextproblem"
         android:layout_width="326dp"
-        android:layout_height="59dp"
+        android:layout_height="178dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="220dp"
         android:background="@drawable/border"
