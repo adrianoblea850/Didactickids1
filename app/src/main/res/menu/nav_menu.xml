@@ -5,52 +5,55 @@
 
     <group
         android:checkableBehavior="single">
+
+
         <item
-            android:id=""
+            android:id="@+id/inicio"
             android:icon="@drawable/nav_home"
             android:title="Inicio"/>
         <item
-            android:id=""
+            android:id="@+id/iniciarsesion"
             android:icon="@drawable/nav_iniciarsesion"
             android:title="Iniciar sesion"/>
         <item
-            android:id=""
+            android:id="@+id/crearcuenta"
             android:icon="@drawable/nav_crearperfil"
             android:title="Crear cuenta"/>
         <item
-            android:id=""
+            android:id="@+id/lecciones"
             android:icon="@drawable/nav_lecciones"
             android:title="Lecciones"/>
         <item
-            android:id=""
+            android:id="@+id/nivel"
             android:icon="@drawable/nav_nivel"
             android:title="Nivel"/>
         <item
-            android:id=""
+            android:id="@+id/datos"
             android:icon="@drawable/nav_datosnino"
             android:title="Datos del niño/a"/>
         <item
-            android:id=""
+            android:id="@+id/leccion"
             android:icon="@drawable/nav_leccion"
             android:title="Leccion"/>
         <item
-            android:id=""
+            android:id="@+id/actividad"
             android:icon="@drawable/nav_actividad"
             android:title="Actividad"/>
         <item
-            android:id=""
+            android:id="@+id/nosotros"
             android:icon="@drawable/nav_nosotros"
             android:title="Nosotros"/>
         <item
-            android:id=""
+            android:id="@+id/Perfil"
             android:icon="@drawable/nav_perfil"
             android:title="Perfil"/>
         <item
-            android:id=""
+            android:id="@+id/Ajustes"
             android:icon="@drawable/nav_ajustes"
             android:title="Ajustes"/>
         <item
-            android:id=""
+            android:id="@+id/Ayuda"
             android:icon="@drawable/nav_ayuda"
             android:title="Ayuda"/>
-    </menu>
+    </group>
+</menu>
