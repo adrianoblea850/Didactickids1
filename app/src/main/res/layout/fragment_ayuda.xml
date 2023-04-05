@@ -49,14 +49,16 @@
 
         android:textSize="15dp"
         tools:ignore="TextSizeCheck"></TextView>
+
     <TextView
         android:layout_width="240dp"
         android:layout_height="52dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="235dp"
+        android:text="Nosotros"
         android:textAlignment="center"
         android:textSize="15dp"
-        android:text="Nosotros"></TextView>
+        tools:ignore="TextSizeCheck"></TextView>
 
 
 
