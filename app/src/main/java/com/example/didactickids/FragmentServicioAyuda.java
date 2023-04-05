@@ -76,6 +76,6 @@ public class FragmentServicioAyuda extends Fragment {
 
     }
     public void mostrarToast() {
-        Toast.makeText(getActivity(), "Se ha enviado correctamente el reporte", Toast.LENGTH_SHORT).show();
+       Toast.makeText(getActivity(), "Se ha enviado correctamente el reporte", Toast.LENGTH_SHORT).show();
     }
 }

@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 /**
@@ -28,6 +30,7 @@ public class FragmentAjustesLecciones extends Fragment {
     private String mParam2;
 
     String ultimobotonPulsado;
+    Toast toast;
 
     public FragmentAjustesLecciones() {
         // Required empty public constructor
@@ -116,6 +119,18 @@ public class FragmentAjustesLecciones extends Fragment {
 
     }
     public void mostrarToast() {
-        Toast.makeText(getActivity(), "Se ha guardado la dificultad:"+ultimobotonPulsado , Toast.LENGTH_SHORT).show();
+        Toast toast = Toast.makeText(getActivity(), "Se ha guardado la dificultad:"+ultimobotonPulsado , Toast.LENGTH_SHORT);
+        View toastView = toast.getView();
+
+        // Set the icon and background of the toast
+
+        ImageView toastIcon = new ImageView(getActivity());
+        toastIcon.setImageResource(R.mipmap.ic_launcher);
+        LinearLayout toastLayout = (LinearLayout) toastView;
+        toastLayout.addView(toastIcon, 0);
+
+        // Show the toast
+        toast.show();
     }
+
 }
