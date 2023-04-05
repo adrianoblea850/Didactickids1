@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -23,6 +26,8 @@ public class FragmentAjustesLecciones extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    String ultimobotonPulsado;
 
     public FragmentAjustesLecciones() {
         // Required empty public constructor
@@ -59,6 +64,58 @@ public class FragmentAjustesLecciones extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_ajustes_lecciones, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_ajustes_lecciones, container, false);
+        Button guardar = rootView.findViewById(R.id.btnG);
+        ImageButton principiante = rootView.findViewById(R.id.principiante);
+        ImageButton intermedio = rootView.findViewById(R.id.intermedio);
+        ImageButton avanzado = rootView.findViewById(R.id.avanzado);
+
+
+
+
+        guardar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mostrarToast();
+            }
+        });
+        principiante.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ultimobotonPulsado = "Principiante";
+                Toast.makeText(getActivity(), "ha seleccionado la dificultad principiante", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        intermedio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ultimobotonPulsado = "Intermedia";
+                Toast.makeText(getActivity(), "ha seleccionado la dificultad intermedia", Toast.LENGTH_SHORT).show();
+            }
+        });
+        avanzado.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ultimobotonPulsado = "Avanzada";
+                Toast.makeText(getActivity(), "ha seleccionado la dificultad avanzada", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+
+
+
+
+
+
+
+        return rootView;
+
+
+
+    }
+    public void mostrarToast() {
+        Toast.makeText(getActivity(), "Se ha guardado la dificultad:"+ultimobotonPulsado , Toast.LENGTH_SHORT).show();
     }
 }
