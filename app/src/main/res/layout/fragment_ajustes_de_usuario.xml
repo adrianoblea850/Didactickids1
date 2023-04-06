@@ -26,14 +26,6 @@
 
         >
 
-        <ImageButton
-            android:layout_width="56dp"
-            android:layout_height="match_parent"
-            android:layout_marginStart="340dp"
-            android:background="@drawable/translucid"
-            android:scaleType="fitCenter"
-            android:src="@drawable/edit"
-            tools:ignore="SpeakableTextPresentCheck"></ImageButton>
 
         <TextView
             android:id="@+id/textView7"
@@ -52,20 +44,13 @@
 
         >
 
-        <ImageButton
-            android:layout_width="56dp"
-            android:layout_height="match_parent"
-            android:layout_marginStart="340dp"
-            android:background="@drawable/translucid"
-            android:scaleType="fitCenter"
-            android:src="@drawable/edit"
-            tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="358dp"
             android:layout_height="match_parent"
-            android:text="Edit pasword "
+            android:text="pasword "
             android:textSize="15dp"
             tools:ignore="TextSizeCheck" />
     </androidx.cardview.widget.CardView>
