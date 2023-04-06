@@ -4,4 +4,16 @@
     <string name="close_nav">Close Navegation</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="iniciarSecion">Iniciar Sesion</string>
+    <string name="NombreUsuario">Nombre_Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="noCuenta">¿No tienes cuenta?, Crear una</string>
+    <string name="correo">Correo</string>
+    <string name="crearCuenta">Crear cuenta</string>
+    <string name="yaCuenta">Ya tengo cuenta</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="suma">Sumas</string>
+    <string name="resta">Restas</string>
+    <string name="multiplicacion">Multiplicaciones</string>
+    <string name="division">Divisiones</string>
 </resources>
