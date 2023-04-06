@@ -17,7 +17,9 @@
         android:background="@drawable/border"
         android:ems="10"
         android:inputType="text"
-        android:text="Ingrese su usuario" />
+        android:hint="Ingrese su usuario"
+        android:textIsSelectable="true"
+        />
 
     <EditText
         android:id="@+id/editTextproblem"
@@ -28,8 +30,9 @@
         android:background="@drawable/border"
         android:ems="10"
         android:inputType="text"
-        android:text="Describa su problema"
-        android:textAlignment="center" />
+        android:hint="Describa su problema"
+        android:textAlignment="center"
+    />
 
     <Button
         android:id="@+id/btnayuda"

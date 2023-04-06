@@ -3,6 +3,8 @@ package com.example.didactickids;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -67,9 +69,29 @@ public class FragmentPerfil extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_perfil, container, false);
         ImageButton imgPerfil = rootView.findViewById(R.id.profile);
-        ImageButton imgdots = rootView.findViewById(R.id.dots);
         ImageButton imglecciones = rootView.findViewById(R.id.lecciones);
-        // ...
+        ImageButton btnsetting = rootView.findViewById(R.id.setting);
+       imglecciones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.fragment_container, new FragmentLecciones());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+            }
+        });
+        btnsetting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.fragment_container, new FragmentAjustes());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+            }
+        });
+
         return rootView;
     }
 

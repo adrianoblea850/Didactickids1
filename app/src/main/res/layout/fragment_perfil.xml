@@ -24,7 +24,7 @@
         android:layout_marginTop="19dp"
         android:layout_marginEnd="72dp"
         android:text="Name"
-        android:background="@drawable/border"
+
         android:layout_marginStart="70dp" />
 
     <ImageButton
@@ -33,9 +33,9 @@
         android:layout_marginStart="335dp"
         android:layout_marginTop="19dp"
         android:background="@drawable/translucid"
-        android:id="@+id/dots"
+        android:id="@+id/setting"
         android:scaleType="fitCenter"
-        android:src="@drawable/img_4"
+        android:src="@drawable/setting"
         tools:ignore="SpeakableTextPresentCheck"></ImageButton>
 
     <ImageView
