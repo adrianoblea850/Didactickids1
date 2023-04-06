@@ -10,6 +10,8 @@
     <string name="noCuenta">¿No tienes cuenta?, Crear una</string>
     <string name="correo">Correo</string>
     <string name="crearCuenta">Crear cuenta</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
     <string name="yaCuenta">Ya tengo cuenta</string>
     <string name="comenzar">Comenzar</string>
     <string name="suma">Sumas</string>

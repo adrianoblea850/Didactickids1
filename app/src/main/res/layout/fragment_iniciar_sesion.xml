@@ -31,7 +31,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/iniciars" />
+                android:src="@drawable/iniciar" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -47,7 +47,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
                 android:background="@drawable/marco_login"
-                android:drawableLeft="@drawable/user"
+                android:drawableLeft="@drawable/nav_iniciarsesion"
                 android:drawablePadding="10dp"
                 android:hint="@string/NombreUsuario"
                 android:textColor="@color/black"
