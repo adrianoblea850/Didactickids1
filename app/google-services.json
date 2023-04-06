@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "867894865900",
+    "project_id": "spotify-clon-60c2d",
+    "storage_bucket": "spotify-clon-60c2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867894865900:android:fd77cedc5e6abdb4f8dac9",
+        "android_client_info": {
+          "package_name": "com.example.didactickids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867894865900-b3tse14pierhcs8kmnc67ihfthvsl7qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1baeaHMyenMw-rmMGMuqMyU41cuEHKTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867894865900-b3tse14pierhcs8kmnc67ihfthvsl7qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867894865900:android:f1c3d2df0e17442af8dac9",
+        "android_client_info": {
+          "package_name": "com.test.vetcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867894865900-b3tse14pierhcs8kmnc67ihfthvsl7qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1baeaHMyenMw-rmMGMuqMyU41cuEHKTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867894865900-b3tse14pierhcs8kmnc67ihfthvsl7qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

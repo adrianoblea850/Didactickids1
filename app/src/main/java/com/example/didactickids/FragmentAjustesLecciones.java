@@ -79,9 +79,10 @@ public class FragmentAjustesLecciones extends Fragment {
         guardar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mostrarToast();
+                Toast.makeText(getActivity(), "Se ha guardado la dificultad:" + ultimobotonPulsado, Toast.LENGTH_SHORT).show();
             }
         });
+
         principiante.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -106,31 +107,11 @@ public class FragmentAjustesLecciones extends Fragment {
         });
 
 
-
-
-
-
-
-
-
         return rootView;
 
 
 
     }
-    public void mostrarToast() {
-        Toast toast = Toast.makeText(getActivity(), "Se ha guardado la dificultad:"+ultimobotonPulsado , Toast.LENGTH_SHORT);
-        View toastView = toast.getView();
 
-        // Set the icon and background of the toast
-
-        ImageView toastIcon = new ImageView(getActivity());
-        toastIcon.setImageResource(R.mipmap.ic_launcher);
-        LinearLayout toastLayout = (LinearLayout) toastView;
-        toastLayout.addView(toastIcon, 0);
-
-        // Show the toast
-        toast.show();
-    }
 
 }
