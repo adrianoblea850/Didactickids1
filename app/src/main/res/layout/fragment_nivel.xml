@@ -3,11 +3,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".FragmentNivel">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="293dp"
+        android:layout_height="473dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="73dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecciona el nivel de tu hijo/a"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iniciar" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Principiante"
+            android:textSize="15dp"
+            app:cornerRadius="20dp"
+            app:iconTint="#00D4C2"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Intermedio"
+            android:textSize="15dp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Avanzado"
+            android:textSize="15dp"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
 
 </RelativeLayout>
