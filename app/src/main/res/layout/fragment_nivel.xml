@@ -38,12 +38,13 @@
             android:id="@+id/button5"
             android:layout_width="232dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:text="Principiante"
             android:textSize="15dp"
             app:cornerRadius="20dp"
             app:iconTint="#00D4C2"
-            android:layout_gravity="center"/>
+            tools:ignore="TextSizeCheck" />
 
         <Button
             android:id="@+id/button6"
@@ -53,7 +54,8 @@
             android:layout_marginTop="30dp"
             android:text="Intermedio"
             android:textSize="15dp"
-            app:cornerRadius="20dp" />
+            app:cornerRadius="20dp"
+            tools:ignore="TextSizeCheck" />
 
         <Button
             android:id="@+id/button7"
@@ -63,7 +65,8 @@
             android:layout_marginTop="30dp"
             android:text="Avanzado"
             android:textSize="15dp"
-            app:cornerRadius="20dp" />
+            app:cornerRadius="20dp"
+            tools:ignore="TextSizeCheck" />
 
     </LinearLayout>
 
