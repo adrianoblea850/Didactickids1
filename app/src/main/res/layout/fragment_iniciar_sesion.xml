@@ -37,12 +37,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/iniciarSecion"
+
                 android:textAlignment="center"
                 android:textSize="36sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/nombreUsuario"
+                android:id="@+id/nombreUsuarioIS"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
@@ -50,16 +51,18 @@
                 android:drawableLeft="@drawable/nav_iniciarsesion"
                 android:drawablePadding="10dp"
                 android:hint="@string/NombreUsuario"
+                android:paddingLeft="20dp"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/cardview_dark_background" />
 
             <EditText
-                android:id="@+id/Contrasena"
+                android:id="@+id/ContrasenaIS"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/marco_login"
                 android:drawableLeft="@drawable/contrasena"
+                android:paddingLeft="20dp"
                 android:drawablePadding="10dp"
                 android:hint="@string/contrasena"
                 android:inputType="textPassword"
@@ -67,7 +70,7 @@
                 android:textColorHighlight="@color/cardview_dark_background" />
 
             <Button
-                android:id="@+id/iniciarSesion"
+                android:id="@+id/btniniciarSesion"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="30dp"
