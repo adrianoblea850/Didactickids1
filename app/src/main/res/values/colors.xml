@@ -8,5 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="lavender">#5BCCD3</color>
+    <color name="morado">#EBDFF8</color>
+    <color name="azul">#BBDEEB</color>
+    <color name="azulC">#C6E3EE</color>
+    <color name="cafe">#A8A572</color>
 
 </resources>
