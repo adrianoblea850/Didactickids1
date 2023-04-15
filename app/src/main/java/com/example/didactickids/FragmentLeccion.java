@@ -18,7 +18,8 @@ import java.net.URI;
 public class FragmentLeccion extends Fragment {
 
     private TextView t;
-    private Button _bnt_suma;
+
+    private Button _btn_suma;
     String _url="https://www.youtube.com/watch?v=eLoJWiucZJE";
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -26,9 +27,9 @@ public class FragmentLeccion extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_leccion, container, false);
 
-        _bnt_suma = _bnt_suma.findViewById();
+        _btn_suma = _btn_suma.findViewById();
 
-        _bnt_suma.setOnClickListener(new View.OnClickListener() {
+        _btn_suma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Uri _link = Uri.parse(_url);
