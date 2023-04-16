@@ -2,17 +2,28 @@ package com.example.didactickids;
 
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
-public class FragmentActividadSuma extends Fragment {
+public abstract class MainActivity extends AppCompatActivity implements  View.OnClickListener{
+    EditText txt1, txt2;
+    Button btnCalcular;
+    TextView txtResultados;
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_actividad_suma, container, false);
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        txt1=(EditText) findViewById(R.id.txt1);
+        txt2=(EditText) findViewById(R.id.txt2);
+        txtResultados=(TextView) findViewById(R.id.txtResultados);
+        btnCalcular=(Button) findViewById(R.id.bntCalcular);
+        btnCalcular.setOnClickListener(this);
     }
 }
