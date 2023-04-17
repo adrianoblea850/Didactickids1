@@ -139,7 +139,7 @@
             android:layout_marginBottom="223dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="Numero1" />
 
         <EditText
             android:id="@+id/txt2"
@@ -155,7 +155,7 @@
             android:layout_marginBottom="168dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="Numero2" />
 
         <TextView
             android:id="@+id/txtResultados"
@@ -169,7 +169,7 @@
             android:layout_marginTop="449dp"
             android:layout_marginEnd="112dp"
             android:layout_marginBottom="111dp"
-            android:text="TextView" />
+            android:text="Resultado" />
 
         <Button
             android:id="@+id/bntCalcular"
