@@ -35,7 +35,7 @@ public class FragmentLeccionResta extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_leccion_resta, container, false);
-        Button actResta = view.findViewById(R.id.actResta);
+        Button actResta = view.findViewById(R.id.resultadodivision);
         actResta.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view){
                 FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();

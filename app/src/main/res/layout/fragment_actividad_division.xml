@@ -51,8 +51,7 @@
         android:ems="10"
         android:hint="@string/num1"
         android:textAlignment="center"
-        android:inputType="textPersonName"
-        android:text="@string/num1" />
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/tvresultadodivision"
@@ -73,16 +72,14 @@
         android:layout_marginLeft="250dp"
         android:ems="10"
         android:hint="@string/num2"
-        android:textAlignment="center"
-        android:text="@string/num2" />
+        android:textAlignment="center" />
 
     <Button
-        android:id="@+id/actResta"
+        android:id="@+id/resultadodivision"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="135dp"
         android:layout_marginTop="450dp"
-        android:onClick="verificar"
         android:text="@string/resultado"
         android:textSize="18sp"
         app:cornerRadius="20dp" />

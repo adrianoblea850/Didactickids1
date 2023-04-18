@@ -72,7 +72,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="135dp"
         android:layout_marginTop="450dp"
-        android:onClick="verificar"
         android:text="@string/resultado"
         android:textSize="18sp"
         app:cornerRadius="20dp" />
