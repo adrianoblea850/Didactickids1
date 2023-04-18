@@ -26,78 +26,17 @@ public class FragmentNivel extends Fragment {
         btnMedio = rootView.findViewById(R.id.button6);
         btnDificil = rootView.findViewById(R.id.button7);
 
-       /* actualizarEjercicios();
+        return  rootView;
 
 
-        btnFacil.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                cambiarDificultad(1);
-            }
-        });
 
-        btnMedio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                cambiarDificultad(2);
-            }
-        });
 
-        btnDificil.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                cambiarDificultad(3);
-            }
-        });
 
-        return rootView;
-    }
-    public void actualizarEjercicios() {
-        // Obtener una lista de ejercicios según la dificultad actual
-        List<Ejercicio> ejercicios = obtenerEjerciciosSegunDificultad();
-
-        // Actualizar la vista para mostrar los nuevos ejercicios
-        RecyclerView recyclerView = rootView.findViewById(R.id.button5);
-        EjercicioAdapter adapter = new EjercicioAdapter(ejercicios);
-        recyclerView.setAdapter(adapter);
     }
 
 
-    public List<Ejercicio> obtenerEjerciciosSegunDificultad() {
-        // Obtener los ejercicios apropiados según la dificultad actual
-        switch (dificultadActual) {
-            case 1:
-                return obtenerEjerciciosFaciles();
-            case 2:
-                return obtenerEjerciciosMedios();
-            case 3:
-                return obtenerEjerciciosDificiles();
-            default:
-                throw new IllegalArgumentException("Dificultad no válida: " + dificultadActual);
-        }
-    }
 
-    private void cambiarDificultad(int nuevaDificultad) {
-        // Cambiar la dificultad actual seleccionada y actualizar los ejercicios
-        dificultadActual = nuevaDificultad;
-        actualizarEjercicios();
-    }
 
-    // Métodos para obtener los ejercicios apropiados según la dificultad
-    private List<Ejercicio> obtenerEjerciciosFaciles() {
-        // Retorna los ejercicios fáciles
-        return new ArrayList<Ejercicio>();
-    }
-
-    private List<Ejercicio> obtenerEjerciciosMedios() {
-        // Retorna los ejercicios medianos
-        return new ArrayList<Ejercicio>();
-    }
-
-    public List<Ejercicio> obtenerEjerciciosDificiles() {
-        // Retorna los ejercicios difíciles
-        return new ArrayList<Ejercicio>();
-    }*/
 
 
 }

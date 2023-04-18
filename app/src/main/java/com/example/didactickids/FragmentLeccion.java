@@ -11,7 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView
+import android.widget.TextView;
 
 import java.net.URI;
 
@@ -19,15 +19,16 @@ public class FragmentLeccion extends Fragment {
 
     private TextView t;
 
-    private Button _btn_suma;
+    Button _btn_suma;
     String _url="https://www.youtube.com/watch?v=eLoJWiucZJE";
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_leccion, container, false);
+        View rootView =  inflater.inflate(R.layout.fragment_leccion, container, false);
 
-        _btn_suma = _btn_suma.findViewById();
+        _btn_suma = rootView.findViewById(R.id.btn_suma);
+
 
         _btn_suma.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,5 +40,6 @@ public class FragmentLeccion extends Fragment {
                 //Log.d("Click", "ok");
             }
         });
+        return  rootView;
     }
 }
