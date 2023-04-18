@@ -22,7 +22,7 @@
         android:id="@+id/imageView27"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="200dp"
         android:layout_marginLeft="20dp"
         android:src="@drawable/juguetesuma" />
 
@@ -30,7 +30,59 @@
         android:id="@+id/imageView28"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="330dp"
+        android:layout_marginTop="210dp"
         android:layout_marginLeft="250dp"
         android:src="@drawable/juguetesparasuma" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="185dp"
+        android:src="@drawable/signomas" />
+
+    <EditText
+        android:id="@+id/sumnum1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/marco_login"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="250dp"
+        android:ems="10"
+        android:hint="@string/num2"
+        android:textAlignment="center"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/sumnum2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/marco_login"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="@string/num1"
+        android:textAlignment="center"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/resultadosuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="450dp"
+        android:onClick="verificar"
+        android:text="@string/resultado"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:id="@+id/tvresultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="155dp"
+        android:textSize="25sp"/>
 </FrameLayout>

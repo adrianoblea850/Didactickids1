@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,4 +16,75 @@
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/arbolesmulti" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="250dp"
+        android:src="@drawable/manzanasmulti" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="450dp"
+        android:onClick="verificar"
+        android:text="@string/resultado"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:id="@+id/tvresultadomulti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="520dp"
+        android:onClick="verificar"
+        android:text="@string/resultado"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="180dp"
+        android:src="@drawable/signomultiplicacion" />
+
+    <EditText
+        android:id="@+id/multinum1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/marco_login"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="@string/num1"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:text="@string/num1" />
+
+    <EditText
+        android:id="@+id/multinum2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/marco_login"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="250dp"
+        android:ems="10"
+        android:hint="@string/num2"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:text="@string/num2" />
 </FrameLayout>
