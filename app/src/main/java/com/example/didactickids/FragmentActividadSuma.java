@@ -74,7 +74,6 @@ public class FragmentActividadSuma extends Fragment {
             }
 
 
-
         });
         return rootView;
 

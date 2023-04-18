@@ -22,12 +22,13 @@
         android:layout_marginTop="190dp"
         android:layout_marginLeft="80dp"
         android:text="@string/suma" />
+
     <Button
         android:id="@+id/btnSuma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="210dp"
         android:layout_marginLeft="40dp"
+        android:layout_marginTop="210dp"
         android:text="@string/comenzar" />
     <ImageView
         android:id="@+id/imageView5"
@@ -43,12 +44,13 @@
         android:layout_marginTop="190dp"
         android:layout_marginLeft="300dp"
         android:text="@string/resta" />
+
     <Button
         android:id="@+id/btnResta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="210dp"
         android:layout_marginLeft="270dp"
+        android:layout_marginTop="210dp"
         android:text="@string/comenzar" />
     <ImageView
         android:id="@+id/imageView6"
@@ -64,12 +66,13 @@
         android:layout_marginTop="440dp"
         android:layout_marginLeft="45dp"
         android:text="@string/multiplicacion" />
+
     <Button
         android:id="@+id/btnMultiplicacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="460dp"
         android:layout_marginLeft="40dp"
+        android:layout_marginTop="460dp"
         android:text="@string/comenzar" />
     <ImageView
         android:id="@+id/imageView7"
@@ -85,12 +88,13 @@
         android:layout_marginTop="440dp"
         android:layout_marginLeft="300dp"
         android:text="@string/division" />
+
     <Button
         android:id="@+id/btnDivision"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="460dp"
         android:layout_marginLeft="270dp"
+        android:layout_marginTop="460dp"
         android:text="@string/comenzar" />
 
 </RelativeLayout>
