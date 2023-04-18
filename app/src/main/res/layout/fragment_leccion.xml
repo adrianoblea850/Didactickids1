@@ -15,92 +15,29 @@
         android:src="@drawable/img_5" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="133dp"
-        android:layout_height="45dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="532dp"
-        android:layout_marginEnd="242dp"
-        android:layout_marginBottom="26dp"
-        android:text="@string/suma"
-        android:layout_gravity="center"
-        app:cornerRadius="20dp"
-        android:textSize="15dp"/>
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="133dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="252dp"
-        android:layout_marginTop="530dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginBottom="25dp"
-        android:text="@string/resta"
-        app:cornerRadius="20dp"
-        android:textSize="15dp"/>
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="123dp"
-        android:layout_height="118dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="399dp"
-        android:layout_marginEnd="262dp"
-        android:layout_marginBottom="86dp"
-        android:src="@drawable/sumas" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="112dp"
-        android:layout_height="111dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="258dp"
-        android:layout_marginTop="410dp"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="81dp"
-        android:src="@drawable/restas" />
-
-    <Button
         android:id="@+id/btn_suma"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/btn_resta"
+        android:layout_below="@+id/imageView10"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="266dp"
-        android:layout_marginEnd="286dp"
-        android:layout_marginBottom="288dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="108dp"
         android:text="Suma" />
 
     <Button
         android:id="@+id/btn_resta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="153dp"
+        android:layout_height="49dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="255dp"
-        android:layout_marginTop="263dp"
-        android:layout_marginEnd="62dp"
-        android:layout_marginBottom="291dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="149dp"
         android:text="Resta" />
 
 </RelativeLayout>

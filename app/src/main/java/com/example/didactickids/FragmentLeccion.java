@@ -41,5 +41,9 @@ public class FragmentLeccion extends Fragment {
             }
         });
         return  rootView;
+
+
     }
+
+
 }

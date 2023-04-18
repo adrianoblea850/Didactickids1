@@ -14,13 +14,9 @@
             android:id="@+id/textView13"
             android:layout_width="361dp"
             android:layout_height="138dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="30dp"
-            android:layout_marginBottom="74dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="22dp"
             android:background="#EAE199"
             android:text="Juan tenia 3 manzanas y le dio una a Pedro y otra  Jose ¿con cuantas manzanas se quedo Juan?"
             android:textAlignment="center"
@@ -53,7 +49,7 @@
             android:layout_marginEnd="76dp"
             android:layout_marginBottom="238dp"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="text"
             android:text="Numero1" />
 
         <EditText
@@ -61,15 +57,13 @@
             android:layout_width="269dp"
             android:layout_height="59dp"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="63dp"
-            android:layout_marginTop="363dp"
-            android:layout_marginEnd="79dp"
-            android:layout_marginBottom="181dp"
+            android:layout_marginStart="59dp"
+            android:layout_marginEnd="82dp"
+            android:layout_marginBottom="177dp"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="text"
             android:text="Numero2" />
 
         <TextView
@@ -80,10 +74,10 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="64dp"
-            android:layout_marginTop="433dp"
-            android:layout_marginEnd="91dp"
-            android:layout_marginBottom="114dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginEnd="98dp"
+            android:layout_marginBottom="107dp"
             android:text="Resultado" />
 
         <Button
@@ -94,11 +88,11 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="120dp"
-            android:layout_marginTop="504dp"
-            android:layout_marginEnd="132dp"
-            android:layout_marginBottom="39dp"
-            android:text="Button" />
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="511dp"
+            android:layout_marginEnd="143dp"
+            android:layout_marginBottom="32dp"
+            android:text="Calcular" />
 
         <ImageView
             android:id="@+id/imageView11"
@@ -108,24 +102,22 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="11dp"
-            android:layout_marginTop="244dp"
-            android:layout_marginEnd="320dp"
-            android:layout_marginBottom="306dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="309dp"
+            android:layout_marginBottom="280dp"
             android:src="@drawable/manzana12" />
 
         <ImageView
             android:id="@+id/imageView14"
             android:layout_width="64dp"
             android:layout_height="61dp"
+            android:layout_below="@+id/textView13"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="175dp"
-            android:layout_marginEnd="323dp"
-            android:layout_marginBottom="367dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="318dp"
             android:src="@drawable/manzana12" />
 
         <ImageView
@@ -134,11 +126,9 @@
             android:layout_height="61dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="98dp"
             android:layout_marginTop="208dp"
-            android:layout_marginEnd="249dp"
             android:layout_marginBottom="334dp"
             android:src="@drawable/manzana12" />
 
