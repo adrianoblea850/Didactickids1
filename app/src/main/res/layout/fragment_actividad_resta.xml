@@ -72,7 +72,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="135dp"
         android:layout_marginTop="450dp"
-        android:onClick="verificar"
         android:text="@string/resultado"
         android:textSize="18sp"
         app:cornerRadius="20dp" />
@@ -84,5 +83,14 @@
         android:text="@string/resultado"
         android:layout_marginTop="520dp"
         android:layout_marginLeft="155dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tvcorrectosuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/correctoin"
         android:textSize="25sp"/>
 </FrameLayout>

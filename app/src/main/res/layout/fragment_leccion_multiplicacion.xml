@@ -18,7 +18,7 @@
         android:src="@drawable/actmultiplicacion" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/actMulti"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="490dp"

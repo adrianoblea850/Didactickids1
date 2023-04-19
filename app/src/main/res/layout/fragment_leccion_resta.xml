@@ -18,7 +18,7 @@
         android:src="@drawable/actresta" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/resultadodivision"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="490dp"

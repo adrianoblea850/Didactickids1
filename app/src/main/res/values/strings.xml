@@ -22,4 +22,5 @@
     <string name="num1">Numero 1</string>
     <string name="num2">Numero 2</string>
     <string name="resultado">Resultado</string>
+    <string name="correctoin">Correcto Incorrecto</string>
 </resources>
