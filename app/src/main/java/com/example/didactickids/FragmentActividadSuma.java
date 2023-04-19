@@ -67,9 +67,11 @@ public class FragmentActividadSuma extends Fragment {
             public void onClick(View view) {
                 int valor1 = Integer.parseInt(txt1.getText().toString());
                 int valor2 = Integer.parseInt(txt2.getText().toString());
-                int r = valor1 + valor2;
+                int r = valor1 - valor2;
 
-                txtResultados.setText("La suma es: "+r);
+                txtResultados.setText("La resta es: "+r);
+
+
 
             }
 
