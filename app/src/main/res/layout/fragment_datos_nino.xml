@@ -42,7 +42,7 @@
             android:layout_marginTop="20dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/nombre"
+            android:hint="Nombre"
             android:textSize="20dp" />
 
         <EditText
@@ -52,17 +52,17 @@
             android:layout_marginTop="20dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/apellido"
+            android:hint="@string/apellido"
             android:textSize="20dp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:layout_marginTop="20dp"
             android:ems="10"
+            android:hint="Edad"
             android:inputType="textPersonName"
-            android:text="Edad"
             android:textSize="20dp" />
 
         <Button
