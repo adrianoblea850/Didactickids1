@@ -5,21 +5,18 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
-import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class Cuenta extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_cuenta);
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-        FragmentIniciarSesion fragmento= new FragmentIniciarSesion();
-        fragmentTransaction.add(R.id.fm1,fragmento);
+        FragmentCrearCuenta fragmento = new FragmentCrearCuenta();
+        fragmentTransaction.add(R.id.fmcrearcuenta,fragmento);
         fragmentTransaction.commit();
-
-
     }
 }

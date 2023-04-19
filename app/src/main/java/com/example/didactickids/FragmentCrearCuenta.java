@@ -1,5 +1,6 @@
 package com.example.didactickids;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.didactickids.databinding.FragmentCrearCuentaBinding;
@@ -14,6 +16,7 @@ import com.example.didactickids.databinding.FragmentCrearCuentaBinding;
 public class FragmentCrearCuenta extends Fragment {
     FragmentCrearCuentaBinding binding;
     DataBaseHelper dataBase;
+    Button btnCrearCuenta;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -52,6 +55,21 @@ public class FragmentCrearCuenta extends Fragment {
         //setContentView(binding.getRoot());
         //binding.getRoot();
         //dataBase = new DataBaseHelper(this);
-        return inflater.inflate(R.layout.fragment_crear_cuenta, container, false);
+        View view = inflater.inflate(R.layout.fragment_crear_cuenta, container, false);
+        btnCrearCuenta = view.findViewById(R.id.btnCrearCuenta);
+
+        btnCrearCuenta.setOnClickListener(new View.OnClickListener() {
+            public void onClick (View view){
+                //FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
+                //FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+                //fragmentTransaction.replace(R.id.fragment_container,new Menu());
+                //fragmentTransaction.addToBackStack(null);
+                //fragmentTransaction.commit();
+                Intent intent = new Intent(getActivity(), Menu.class);
+                startActivity(intent);
+            }
+        });
+        return view;
     }
 }

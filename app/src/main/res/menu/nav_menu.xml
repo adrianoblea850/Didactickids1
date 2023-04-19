@@ -11,14 +11,6 @@
             android:icon="@drawable/nav_home"
             android:title="Inicio"/>
         <item
-            android:id="@+id/nav_iniciarsesion"
-            android:icon="@drawable/nav_iniciarsesion"
-            android:title="Iniciar sesion"/>
-        <item
-            android:id="@+id/nav_crearperfil"
-            android:icon="@drawable/nav_crearperfil"
-            android:title="Crear cuenta"/>
-        <item
             android:id="@+id/nav_lecciones"
             android:icon="@drawable/nav_lecciones"
             android:title="Lecciones"/>

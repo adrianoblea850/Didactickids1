@@ -30,7 +30,7 @@ public class Menu extends AppCompatActivity implements NavigationView.OnNavigati
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
         if (savedInstanceState == null){
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FragmentIniciarSesion()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FragmentHome()).commit();
             navigationView.setCheckedItem(R.id.nav_home);
         }
     }
@@ -41,12 +41,12 @@ public class Menu extends AppCompatActivity implements NavigationView.OnNavigati
             case R.id.nav_home:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new FragmentHome()).commit();
                 break;
-            case R.id.nav_crearperfil:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new FragmentCrearCuenta()).commit();
-                break;
-            case R.id.nav_iniciarsesion:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new FragmentIniciarSesion()).commit();
-                break;
+            //case R.id.nav_crearperfil:
+              //  getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new FragmentCrearCuenta()).commit();
+                //break;
+            //case R.id.nav_iniciarsesion:
+              //  getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new FragmentIniciarSesion()).commit();
+                //break;
             case R.id.nav_lecciones:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new FragmentLecciones()).commit();
                 break;
